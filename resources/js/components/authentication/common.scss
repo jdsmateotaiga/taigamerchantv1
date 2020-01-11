@@ -1,0 +1,37 @@
+.auth-container {
+  width: 100%;
+  height: 100vh;
+  background: url('https://i.imgur.com/BoXgahI.jpg') center no-repeat;
+  background-size: cover;
+  padding-top: 5em;
+
+  .auth-area {
+    display: table;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 3em 4em 4em;
+
+    .taiga-logo {
+      display: table;
+      width: 190px;
+      margin: 0 auto 15px;
+    }
+
+    .auth-form {
+      width: 300px;
+
+      .ant-form-item {
+        margin-bottom: 15px!important;
+      }
+
+      .auth-form-forgot {
+        float: right;
+      }
+
+      .auth-form-button {
+        width: 100%;
+      }
+    }
+
+  }
+}
